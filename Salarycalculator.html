@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1></h1>
+      <div style="text-align: center; margin-top: 10px; margin-bottom: 10px">
+        <input type="number" placeholder="Gross Salary" id="grossSalary" />
+      </div>
+      <div style="text-align: center; margin-bottom: 20px">
+        <input
+          type="number"
+          placeholder="SSNIT contribution"
+          id="ssnitContribution"
+        />
+      </div>
+      <!-- <button onclick="showAlert()">Show alert</button> -->
+      <div style="text-align: center; font-size: large; margin-bottom: 40px">
+        <button type="Submit" onclick="return salaryCalculator()">
+          CALCULATOR
+        </button>
+      </div>
+      <div id="result"></div>
+    </form>
+  </body>
+</html>
